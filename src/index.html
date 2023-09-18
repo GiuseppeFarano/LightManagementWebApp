@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Light management App</title>
+
+    <!-- referenzio Bootstrap e i fogli di stile -->
+    <link href="vendor/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel = "stylesheet" href = "./navbar.css">
+    <link rel = "stylesheet" href = "./buttons.css">
+    <link rel = "stylesheet" href = "./textbox.css">
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+     <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/truffle-contract@4.0.31/dist/truffle-contract.min.js"></script>
+    <script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="app_interface.js"></script> <!--import dell'interfaccia app_interface-->
+    <script src="app.js"></script> <!--import dell'applicazione-->
+    </head>
+  <body>
+    <header class="navbar navbar-light bg-primary shadow">
+      <h5>Light management App</h5>
+      <h5>Account address: <span id="account"></span></h5>
+    </header>
+    <p>Premere sul pulsante per accendere o spegnere la lampadina.</p>
+    <div class="button-container">
+      <button class="square-button" id="pulsante">On / Off</button>
+      <button class="round-button"></button>
+    </div>
+    <div class="text-container">
+      Stato lampadina:<input type="text" class="textbox" placeholder="a">
+    </div>
+  </body>
+</html>

@@ -1,0 +1,1127 @@
+{
+  "contractName": "LampController",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "lamp",
+      "outputs": [
+        {
+          "name": "isOn",
+          "type": "bool"
+        },
+        {
+          "name": "lampColor",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function",
+      "signature": "0x9da26762"
+    },
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor",
+      "signature": "constructor"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "setLampState",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "signature": "0xe472e3a6"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "getLampState",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function",
+      "signature": "0xfe54d326"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b5060408051808201825260018082528251808401909352600683527f6769616c6c6f00000000000000000000000000000000000000000000000000006020808501918252830184905282516000805460ff1916911515919091178155935192939261007c929190610085565b50905050610120565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106100c657805160ff19168380011785556100f3565b828001600101855582156100f3579182015b828111156100f35782518255916020019190600101906100d8565b506100ff929150610103565b5090565b61011d91905b808211156100ff5760008155600101610109565b90565b6102168061012f6000396000f3fe6080604052600436106100565763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416639da26762811461005b578063e472e3a6146100f3578063fe54d3261461010a575b600080fd5b34801561006757600080fd5b50610070610133565b604051808315151515815260200180602001828103825283818151815260200191508051906020019080838360005b838110156100b757818101518382015260200161009f565b50505050905090810190601f1680156100e45780820380516001836020036101000a031916815260200191505b50935050505060405180910390f35b3480156100ff57600080fd5b506101086101cd565b005b34801561011657600080fd5b5061011f6101e1565b604080519115158252519081900360200190f35b6000805460018054604080516020600261010085871615026000190190941693909304601f810184900484028201840190925281815260ff909416949392918301828280156101c35780601f10610198576101008083540402835291602001916101c3565b820191906000526020600020905b8154815290600101906020018083116101a657829003601f168201915b5050505050905082565b6000805460ff19811660ff90911615179055565b60005460ff169056fea165627a7a723058207a7ecac93681471baee9a452dcb060c81fd21ef92fdda687a93faa60960e0e4b0029",
+  "deployedBytecode": "0x6080604052600436106100565763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416639da26762811461005b578063e472e3a6146100f3578063fe54d3261461010a575b600080fd5b34801561006757600080fd5b50610070610133565b604051808315151515815260200180602001828103825283818151815260200191508051906020019080838360005b838110156100b757818101518382015260200161009f565b50505050905090810190601f1680156100e45780820380516001836020036101000a031916815260200191505b50935050505060405180910390f35b3480156100ff57600080fd5b506101086101cd565b005b34801561011657600080fd5b5061011f6101e1565b604080519115158252519081900360200190f35b6000805460018054604080516020600261010085871615026000190190941693909304601f810184900484028201840190925281815260ff909416949392918301828280156101c35780601f10610198576101008083540402835291602001916101c3565b820191906000526020600020905b8154815290600101906020018083116101a657829003601f168201915b5050505050905082565b6000805460ff19811660ff90911615179055565b60005460ff169056fea165627a7a723058207a7ecac93681471baee9a452dcb060c81fd21ef92fdda687a93faa60960e0e4b0029",
+  "sourceMap": "111:501:0:-;;;252:67;8:9:-1;5:2;;;30:1;27;20:12;5:2;-1:-1;291:20:0;;;;;;;;296:4;291:20;;;;;;;;;;;;;;;;;;;;;;;;;;;284:27;;-1:-1:-1;284:27:0;;-1:-1:-1;;284:27:0;;;;;;;;;;;;291:20;;-1:-1:-1;284:27:0;;296:4;291:20;284:27;:::i;:::-;;;;;111:501;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;111:501:0;;;-1:-1:-1;111:501:0;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
+  "deployedSourceMap": "111:501:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;227:16;;8:9:-1;5:2;;;30:1;27;20:12;5:2;227:16:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;90:11;;;84:18;71:11;;;64:39;52:2;45:10;8:100;;;12:14;227:16:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;435:74;;8:9:-1;5:2;;;30:1;27;20:12;5:2;435:74:0;;;;;;517:90;;8:9:-1;5:2;;;30:1;27;20:12;5:2;517:90:0;;;;;;;;;;;;;;;;;;;;;;227:16;;;;;;;;;;;;;;;;;;-1:-1:-1;;227:16:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;435:74::-;492:4;:9;;-1:-1:-1;;479:22:0;;492:9;;;;491:10;479:22;;;435:74::o;517:90::-;564:4;589:9;;;517:90;:::o",
+  "source": "//contratto per gestire l'accensione e lo spegnimento da remoto di una lampadina\r\n\r\npragma solidity ^0.5.0;\r\n\r\ncontract LampController {\r\n    \r\n    struct Lamp {\r\n        bool isOn;\r\n        string lampColor;\r\n    }    \r\n\r\n    Lamp public lamp;\r\n\r\n    constructor() public {\r\n        lamp = Lamp(true, \"giallo\");\r\n    }\r\n\r\n    //funzione per invertire lo stato della proprietà isOn che indica se la lampadina sia accesa o spenta\r\n    function setLampState() external {\r\n        lamp.isOn = !lamp.isOn;\r\n    }\r\n\r\n    function getLampState() external view returns (bool) {\r\n        return (lamp.isOn);\r\n    }\r\n\r\n}",
+  "sourcePath": "C:/Users/UTENTE/Desktop/eth-my-app/contracts/LampController.sol",
+  "ast": {
+    "absolutePath": "/C/Users/UTENTE/Desktop/eth-my-app/contracts/LampController.sol",
+    "exportedSymbols": {
+      "LampController": [
+        42
+      ]
+    },
+    "id": 43,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "84:23:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 42,
+        "linearizedBaseContracts": [
+          42
+        ],
+        "name": "LampController",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "LampController.Lamp",
+            "id": 6,
+            "members": [
+              {
+                "constant": false,
+                "id": 3,
+                "name": "isOn",
+                "nodeType": "VariableDeclaration",
+                "scope": 6,
+                "src": "171:9:0",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bool",
+                  "typeString": "bool"
+                },
+                "typeName": {
+                  "id": 2,
+                  "name": "bool",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "171:4:0",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 5,
+                "name": "lampColor",
+                "nodeType": "VariableDeclaration",
+                "scope": 6,
+                "src": "191:16:0",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 4,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "191:6:0",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              }
+            ],
+            "name": "Lamp",
+            "nodeType": "StructDefinition",
+            "scope": 42,
+            "src": "148:67:0",
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 8,
+            "name": "lamp",
+            "nodeType": "VariableDeclaration",
+            "scope": 42,
+            "src": "227:16:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_struct$_Lamp_$6_storage",
+              "typeString": "struct LampController.Lamp"
+            },
+            "typeName": {
+              "contractScope": null,
+              "id": 7,
+              "name": "Lamp",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 6,
+              "src": "227:4:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_struct$_Lamp_$6_storage_ptr",
+                "typeString": "struct LampController.Lamp"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 18,
+              "nodeType": "Block",
+              "src": "273:46:0",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 16,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 11,
+                      "name": "lamp",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 8,
+                      "src": "284:4:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_Lamp_$6_storage",
+                        "typeString": "struct LampController.Lamp storage ref"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "arguments": [
+                        {
+                          "argumentTypes": null,
+                          "hexValue": "74727565",
+                          "id": 13,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "bool",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "296:4:0",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_bool",
+                            "typeString": "bool"
+                          },
+                          "value": "true"
+                        },
+                        {
+                          "argumentTypes": null,
+                          "hexValue": "6769616c6c6f",
+                          "id": 14,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "string",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "302:8:0",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_stringliteral_3a53562507edaa0a304c72031ca646c54bd811bbf159fb37c654dda4dfb508dc",
+                            "typeString": "literal_string \"giallo\""
+                          },
+                          "value": "giallo"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_bool",
+                            "typeString": "bool"
+                          },
+                          {
+                            "typeIdentifier": "t_stringliteral_3a53562507edaa0a304c72031ca646c54bd811bbf159fb37c654dda4dfb508dc",
+                            "typeString": "literal_string \"giallo\""
+                          }
+                        ],
+                        "id": 12,
+                        "name": "Lamp",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 6,
+                        "src": "291:4:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_struct$_Lamp_$6_storage_ptr_$",
+                          "typeString": "type(struct LampController.Lamp storage pointer)"
+                        }
+                      },
+                      "id": 15,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "structConstructorCall",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "291:20:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_Lamp_$6_memory",
+                        "typeString": "struct LampController.Lamp memory"
+                      }
+                    },
+                    "src": "284:27:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_Lamp_$6_storage",
+                      "typeString": "struct LampController.Lamp storage ref"
+                    }
+                  },
+                  "id": 17,
+                  "nodeType": "ExpressionStatement",
+                  "src": "284:27:0"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 19,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 9,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "263:2:0"
+            },
+            "returnParameters": {
+              "id": 10,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "273:0:0"
+            },
+            "scope": 42,
+            "src": "252:67:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 30,
+              "nodeType": "Block",
+              "src": "468:41:0",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 28,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 22,
+                        "name": "lamp",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 8,
+                        "src": "479:4:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Lamp_$6_storage",
+                          "typeString": "struct LampController.Lamp storage ref"
+                        }
+                      },
+                      "id": 24,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "memberName": "isOn",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 3,
+                      "src": "479:9:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 27,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "nodeType": "UnaryOperation",
+                      "operator": "!",
+                      "prefix": true,
+                      "src": "491:10:0",
+                      "subExpression": {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 25,
+                          "name": "lamp",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 8,
+                          "src": "492:4:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_Lamp_$6_storage",
+                            "typeString": "struct LampController.Lamp storage ref"
+                          }
+                        },
+                        "id": 26,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "isOn",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 3,
+                        "src": "492:9:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "src": "479:22:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 29,
+                  "nodeType": "ExpressionStatement",
+                  "src": "479:22:0"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 31,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "setLampState",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 20,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "456:2:0"
+            },
+            "returnParameters": {
+              "id": 21,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "468:0:0"
+            },
+            "scope": 42,
+            "src": "435:74:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "external"
+          },
+          {
+            "body": {
+              "id": 40,
+              "nodeType": "Block",
+              "src": "570:37:0",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "components": [
+                      {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 36,
+                          "name": "lamp",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 8,
+                          "src": "589:4:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_Lamp_$6_storage",
+                            "typeString": "struct LampController.Lamp storage ref"
+                          }
+                        },
+                        "id": 37,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "isOn",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 3,
+                        "src": "589:9:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      }
+                    ],
+                    "id": 38,
+                    "isConstant": false,
+                    "isInlineArray": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "nodeType": "TupleExpression",
+                    "src": "588:11:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "functionReturnParameters": 35,
+                  "id": 39,
+                  "nodeType": "Return",
+                  "src": "581:18:0"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 41,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getLampState",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 32,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "538:2:0"
+            },
+            "returnParameters": {
+              "id": 35,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 34,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 41,
+                  "src": "564:4:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 33,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "564:4:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "563:6:0"
+            },
+            "scope": 42,
+            "src": "517:90:0",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "external"
+          }
+        ],
+        "scope": 43,
+        "src": "111:501:0"
+      }
+    ],
+    "src": "84:528:0"
+  },
+  "legacyAST": {
+    "absolutePath": "/C/Users/UTENTE/Desktop/eth-my-app/contracts/LampController.sol",
+    "exportedSymbols": {
+      "LampController": [
+        42
+      ]
+    },
+    "id": 43,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "84:23:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 42,
+        "linearizedBaseContracts": [
+          42
+        ],
+        "name": "LampController",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "LampController.Lamp",
+            "id": 6,
+            "members": [
+              {
+                "constant": false,
+                "id": 3,
+                "name": "isOn",
+                "nodeType": "VariableDeclaration",
+                "scope": 6,
+                "src": "171:9:0",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bool",
+                  "typeString": "bool"
+                },
+                "typeName": {
+                  "id": 2,
+                  "name": "bool",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "171:4:0",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 5,
+                "name": "lampColor",
+                "nodeType": "VariableDeclaration",
+                "scope": 6,
+                "src": "191:16:0",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 4,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "191:6:0",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              }
+            ],
+            "name": "Lamp",
+            "nodeType": "StructDefinition",
+            "scope": 42,
+            "src": "148:67:0",
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 8,
+            "name": "lamp",
+            "nodeType": "VariableDeclaration",
+            "scope": 42,
+            "src": "227:16:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_struct$_Lamp_$6_storage",
+              "typeString": "struct LampController.Lamp"
+            },
+            "typeName": {
+              "contractScope": null,
+              "id": 7,
+              "name": "Lamp",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 6,
+              "src": "227:4:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_struct$_Lamp_$6_storage_ptr",
+                "typeString": "struct LampController.Lamp"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 18,
+              "nodeType": "Block",
+              "src": "273:46:0",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 16,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 11,
+                      "name": "lamp",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 8,
+                      "src": "284:4:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_Lamp_$6_storage",
+                        "typeString": "struct LampController.Lamp storage ref"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "arguments": [
+                        {
+                          "argumentTypes": null,
+                          "hexValue": "74727565",
+                          "id": 13,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "bool",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "296:4:0",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_bool",
+                            "typeString": "bool"
+                          },
+                          "value": "true"
+                        },
+                        {
+                          "argumentTypes": null,
+                          "hexValue": "6769616c6c6f",
+                          "id": 14,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "string",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "302:8:0",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_stringliteral_3a53562507edaa0a304c72031ca646c54bd811bbf159fb37c654dda4dfb508dc",
+                            "typeString": "literal_string \"giallo\""
+                          },
+                          "value": "giallo"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_bool",
+                            "typeString": "bool"
+                          },
+                          {
+                            "typeIdentifier": "t_stringliteral_3a53562507edaa0a304c72031ca646c54bd811bbf159fb37c654dda4dfb508dc",
+                            "typeString": "literal_string \"giallo\""
+                          }
+                        ],
+                        "id": 12,
+                        "name": "Lamp",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 6,
+                        "src": "291:4:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_struct$_Lamp_$6_storage_ptr_$",
+                          "typeString": "type(struct LampController.Lamp storage pointer)"
+                        }
+                      },
+                      "id": 15,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "structConstructorCall",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "291:20:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_Lamp_$6_memory",
+                        "typeString": "struct LampController.Lamp memory"
+                      }
+                    },
+                    "src": "284:27:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_Lamp_$6_storage",
+                      "typeString": "struct LampController.Lamp storage ref"
+                    }
+                  },
+                  "id": 17,
+                  "nodeType": "ExpressionStatement",
+                  "src": "284:27:0"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 19,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 9,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "263:2:0"
+            },
+            "returnParameters": {
+              "id": 10,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "273:0:0"
+            },
+            "scope": 42,
+            "src": "252:67:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 30,
+              "nodeType": "Block",
+              "src": "468:41:0",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 28,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 22,
+                        "name": "lamp",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 8,
+                        "src": "479:4:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Lamp_$6_storage",
+                          "typeString": "struct LampController.Lamp storage ref"
+                        }
+                      },
+                      "id": 24,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "memberName": "isOn",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 3,
+                      "src": "479:9:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 27,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "nodeType": "UnaryOperation",
+                      "operator": "!",
+                      "prefix": true,
+                      "src": "491:10:0",
+                      "subExpression": {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 25,
+                          "name": "lamp",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 8,
+                          "src": "492:4:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_Lamp_$6_storage",
+                            "typeString": "struct LampController.Lamp storage ref"
+                          }
+                        },
+                        "id": 26,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "isOn",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 3,
+                        "src": "492:9:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "src": "479:22:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 29,
+                  "nodeType": "ExpressionStatement",
+                  "src": "479:22:0"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 31,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "setLampState",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 20,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "456:2:0"
+            },
+            "returnParameters": {
+              "id": 21,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "468:0:0"
+            },
+            "scope": 42,
+            "src": "435:74:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "external"
+          },
+          {
+            "body": {
+              "id": 40,
+              "nodeType": "Block",
+              "src": "570:37:0",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "components": [
+                      {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 36,
+                          "name": "lamp",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 8,
+                          "src": "589:4:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_Lamp_$6_storage",
+                            "typeString": "struct LampController.Lamp storage ref"
+                          }
+                        },
+                        "id": 37,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "isOn",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 3,
+                        "src": "589:9:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      }
+                    ],
+                    "id": 38,
+                    "isConstant": false,
+                    "isInlineArray": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "nodeType": "TupleExpression",
+                    "src": "588:11:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "functionReturnParameters": 35,
+                  "id": 39,
+                  "nodeType": "Return",
+                  "src": "581:18:0"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 41,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getLampState",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 32,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "538:2:0"
+            },
+            "returnParameters": {
+              "id": 35,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 34,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 41,
+                  "src": "564:4:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 33,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "564:4:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "563:6:0"
+            },
+            "scope": 42,
+            "src": "517:90:0",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "external"
+          }
+        ],
+        "scope": 43,
+        "src": "111:501:0"
+      }
+    ],
+    "src": "84:528:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {
+        "0xd7c227c93ad1d6b7554586b8bbf377daf0ceed0473987e8ff2e1d5a97fac2ebf": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "isOn",
+              "type": "bool"
+            },
+            {
+              "indexed": false,
+              "name": "lampColor",
+              "type": "string"
+            }
+          ],
+          "name": "LampStateUpdated",
+          "type": "event",
+          "signature": "0xd7c227c93ad1d6b7554586b8bbf377daf0ceed0473987e8ff2e1d5a97fac2ebf"
+        }
+      },
+      "links": {},
+      "address": "0x5cAa02a7c902aac1cc8AFE21D6D319188f14Eb0f",
+      "transactionHash": "0x5ee2c07716b3df01bb56de0e032f349d7f2814b07b8c60bf4f119b5e5e758278"
+    }
+  },
+  "schemaVersion": "3.0.1",
+  "updatedAt": "2023-09-18T16:09:56.095Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

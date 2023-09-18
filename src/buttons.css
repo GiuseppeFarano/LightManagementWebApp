@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.button-container{
+    display: flex;
+    gap: 100px;
+}
+
+.square-button {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.round-button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 14px;
+    margin-top: 10px;
+    cursor: pointer;
+    pointer-events: none;
+}
+
+.square-button:hover {
+    background-color: green; /* Cambio colore al passaggio del mouse */
+}
